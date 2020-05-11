@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="edu.ib.projekt_tom_2.activities.MenuActivity"
+    android:background="#000">
+
+    <Button
+        android:id="@+id/btnStartMeasurement"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:onClick="btnStartClicked"
+        android:text="@string/start_measurement"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btnYourResults"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:onClick="btnYourResultsClicked"
+        android:text="@string/your_results"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btnHealthInfo"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:onClick="btnHealthInfoClicked"
+        android:text="@string/health_info"
+        tools:ignore="OnClick" />
+
+</LinearLayout>

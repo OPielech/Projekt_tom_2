@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Projekt_tom</string>
+    <string name="connect_to_device">Connect to device</string>
+    <string name="start">Start</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">SignUp</string>
+    <string name="login">Login:</string>
+    <string name="password">Password:</string>
+    <string name="underline_color_change">Underline color change</string>
+    <string name="email">Email</string>
+    <string name="age">Age</string>
+    <string name="confirm">Confirm</string>
+    <string name="start_measurement">Start measurement</string>
+    <string name="health_info">Health Info</string>
+    <string name="your_result">Your result</string>
+    <string name="normal_value">Normal value:</string>
+    <string name="norms">Norms:</string>
+    <string name="result">Result:</string>
+    <string name="your_results">Your results</string>
+</resources>

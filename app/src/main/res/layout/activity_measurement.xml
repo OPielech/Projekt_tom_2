@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="edu.ib.projekt_tom_2.activities.MeasurementActivity"
+    android:background="#000">
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Your result:"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="@string/norms"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="@string/result"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:onClick="btnConfirmClicked"
+        android:text="@string/confirm"
+        tools:ignore="OnClick" />
+
+</LinearLayout>

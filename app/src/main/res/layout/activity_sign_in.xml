@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="edu.ib.projekt_tom_2.activities.SignInActivity"
+    android:background="#000">
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="@string/login"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFF"/>
+
+    <EditText
+        android:id="@+id/textLogin"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#FFF"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="@string/password"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFF"/>
+
+    <EditText
+        android:id="@+id/textPassword"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#FFF"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:onClick="btnConfirmClicked"
+        android:text="@string/confirm"
+        tools:ignore="OnClick" />
+
+</LinearLayout>
